@@ -6,13 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1400</width>
+    <width>1200</width>
     <height>700</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>1400</width>
+    <width>1200</width>
     <height>700</height>
    </size>
   </property>
@@ -48,7 +48,8 @@
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">	background-color:rgba(0,0,0,0);</string>
+       <string notr="true">background-color:rgba(0,0,0,0);
+</string>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
@@ -74,7 +75,8 @@
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(0, 0, 0);</string>
+          <string notr="true">color: rgb(0, 0, 0);
+border:none;</string>
          </property>
          <property name="text">
           <string>504 Absolutely Essential Words</string>
@@ -136,15 +138,15 @@
           <property name="geometry">
            <rect>
             <x>0</x>
-            <y>-2870</y>
-            <width>1383</width>
-            <height>3500</height>
+            <y>-2587</y>
+            <width>1198</width>
+            <height>3200</height>
            </rect>
           </property>
           <property name="minimumSize">
            <size>
             <width>0</width>
-            <height>3500</height>
+            <height>3200</height>
            </size>
           </property>
           <layout class="QGridLayout" name="gridLayout">
@@ -155,7 +157,7 @@
             <number>0</number>
            </property>
            <property name="rightMargin">
-            <number>0</number>
+            <number>10</number>
            </property>
            <property name="bottomMargin">
             <number>0</number>
@@ -168,7 +170,7 @@
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_4">
@@ -203,7 +205,7 @@
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -231,7 +233,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 3</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -258,10 +260,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : John Florio</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -285,10 +287,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 7 - 9</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -410,7 +412,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson3</string>
                       </property>
                      </widget>
                     </item>
@@ -436,7 +438,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -464,7 +466,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 4</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -482,7 +484,7 @@ border:none;</string>
                       <property name="font">
                        <font>
                         <family>Tahoma</family>
-                        <pointsize>12</pointsize>
+                        <pointsize>11</pointsize>
                         <bold>true</bold>
                        </font>
                       </property>
@@ -491,10 +493,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : George Herbert</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -518,10 +520,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 10 - 12</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -643,7 +645,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson4</string>
                       </property>
                      </widget>
                     </item>
@@ -661,7 +663,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_10">
@@ -696,7 +698,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -724,7 +726,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 15</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -742,7 +744,7 @@ border:none;</string>
                       <property name="font">
                        <font>
                         <family>Tahoma</family>
-                        <pointsize>12</pointsize>
+                        <pointsize>11</pointsize>
                         <bold>true</bold>
                        </font>
                       </property>
@@ -751,10 +753,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author :  Wendell Holmes</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -778,10 +780,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 47 - 49</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -903,7 +905,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson15</string>
                       </property>
                      </widget>
                     </item>
@@ -929,7 +931,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -957,7 +959,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 16</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -984,10 +986,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Edmund Burke</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -1011,10 +1013,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 50 - 52</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -1136,7 +1138,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson16</string>
                       </property>
                      </widget>
                     </item>
@@ -1154,7 +1156,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_9">
@@ -1189,7 +1191,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -1217,7 +1219,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 13</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -1235,7 +1237,7 @@ border:none;</string>
                       <property name="font">
                        <font>
                         <family>Tahoma</family>
-                        <pointsize>12</pointsize>
+                        <pointsize>11</pointsize>
                         <bold>true</bold>
                        </font>
                       </property>
@@ -1244,10 +1246,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Abraham Lincoln</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -1271,10 +1273,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 41 - 43</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -1396,7 +1398,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson13</string>
                       </property>
                      </widget>
                     </item>
@@ -1422,7 +1424,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -1450,7 +1452,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 14</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -1477,10 +1479,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Ernest Rhys</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -1504,10 +1506,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 44 - 46</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -1629,7 +1631,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson14</string>
                       </property>
                      </widget>
                     </item>
@@ -1647,7 +1649,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_19">
@@ -1682,7 +1684,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -1710,7 +1712,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 33</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -1737,7 +1739,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1764,7 +1766,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 107 - 109</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1889,7 +1891,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson33</string>
                       </property>
                      </widget>
                     </item>
@@ -1915,7 +1917,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -1943,7 +1945,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 34</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -1970,7 +1972,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1997,7 +1999,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 110 - 112</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -2122,7 +2124,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson34</string>
                       </property>
                      </widget>
                     </item>
@@ -2146,7 +2148,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_12">
@@ -2181,7 +2183,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -2209,7 +2211,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 19</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -2236,10 +2238,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Confucius  </string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -2263,10 +2265,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 61 - 63</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -2284,6 +2286,9 @@ border:none;</string>
                         <pointsize>12</pointsize>
                         <bold>true</bold>
                        </font>
+                      </property>
+                      <property name="contextMenuPolicy">
+                       <enum>Qt::DefaultContextMenu</enum>
                       </property>
                       <property name="layoutDirection">
                        <enum>Qt::LeftToRight</enum>
@@ -2388,7 +2393,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson19</string>
                       </property>
                      </widget>
                     </item>
@@ -2414,7 +2419,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -2442,7 +2447,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 20</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -2460,7 +2465,7 @@ border:none;</string>
                       <property name="font">
                        <font>
                         <family>Tahoma</family>
-                        <pointsize>12</pointsize>
+                        <pointsize>11</pointsize>
                         <bold>true</bold>
                        </font>
                       </property>
@@ -2469,10 +2474,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Rudyard Kipling</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -2496,10 +2501,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 64 - 66</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -2621,7 +2626,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson20</string>
                       </property>
                      </widget>
                     </item>
@@ -2639,7 +2644,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_6">
@@ -2674,7 +2679,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -2702,7 +2707,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 11</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -2729,10 +2734,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Seneca</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -2756,10 +2761,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 33 - 35</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -2881,7 +2886,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson11</string>
                       </property>
                      </widget>
                     </item>
@@ -2907,7 +2912,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -2935,7 +2940,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 12</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -2953,7 +2958,7 @@ border:none;</string>
                       <property name="font">
                        <font>
                         <family>Tahoma</family>
-                        <pointsize>12</pointsize>
+                        <pointsize>9</pointsize>
                         <bold>true</bold>
                        </font>
                       </property>
@@ -2962,10 +2967,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Thomas Churchyard</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -2989,10 +2994,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 36 - 38</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -3114,7 +3119,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson12</string>
                       </property>
                      </widget>
                     </item>
@@ -3132,7 +3137,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_15">
@@ -3167,7 +3172,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -3195,7 +3200,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 25</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -3222,10 +3227,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -3249,10 +3254,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 81 - 83</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -3374,7 +3379,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson25</string>
                       </property>
                      </widget>
                     </item>
@@ -3400,7 +3405,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -3428,7 +3433,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 26</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -3455,10 +3460,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -3482,10 +3487,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 84 - 86</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -3607,7 +3612,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson26</string>
                       </property>
                      </widget>
                     </item>
@@ -3622,6 +3627,12 @@ background-color: rgb(96, 195, 99);</string>
            </item>
            <item row="6" column="1">
             <widget class="QWidget" name="widget_68" native="true">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>280</height>
+              </size>
+             </property>
              <layout class="QHBoxLayout" name="horizontalLayout_16">
               <property name="spacing">
                <number>0</number>
@@ -3654,7 +3665,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -3682,7 +3693,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 27</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -3709,10 +3720,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -3736,10 +3747,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 87 - 89</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -3861,7 +3872,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson27</string>
                       </property>
                      </widget>
                     </item>
@@ -3887,7 +3898,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -3915,7 +3926,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 28</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -3942,7 +3953,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -3969,7 +3980,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 90 - 92</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -4094,7 +4105,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson28</string>
                       </property>
                      </widget>
                     </item>
@@ -4112,7 +4123,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_14">
@@ -4147,7 +4158,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -4175,7 +4186,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 23</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -4193,7 +4204,7 @@ border:none;</string>
                       <property name="font">
                        <font>
                         <family>Tahoma</family>
-                        <pointsize>12</pointsize>
+                        <pointsize>11</pointsize>
                         <bold>true</bold>
                        </font>
                       </property>
@@ -4202,7 +4213,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Alexander Pope</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -4229,10 +4240,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 73 - 75</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -4354,7 +4365,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson23</string>
                       </property>
                      </widget>
                     </item>
@@ -4380,7 +4391,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -4408,7 +4419,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 24</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -4435,7 +4446,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Aeschylus</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -4462,10 +4473,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 76 - 78</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -4587,7 +4598,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson24</string>
                       </property>
                      </widget>
                     </item>
@@ -4605,7 +4616,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_13">
@@ -4640,7 +4651,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -4668,7 +4679,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 21</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -4686,7 +4697,7 @@ border:none;</string>
                       <property name="font">
                        <font>
                         <family>Tahoma</family>
-                        <pointsize>12</pointsize>
+                        <pointsize>11</pointsize>
                         <bold>true</bold>
                        </font>
                       </property>
@@ -4695,7 +4706,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Chinese proverb </string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -4722,10 +4733,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 67 - 69</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -4847,7 +4858,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson21</string>
                       </property>
                      </widget>
                     </item>
@@ -4873,7 +4884,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -4901,7 +4912,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 22</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -4919,7 +4930,7 @@ border:none;</string>
                       <property name="font">
                        <font>
                         <family>Tahoma</family>
-                        <pointsize>12</pointsize>
+                        <pointsize>11</pointsize>
                         <bold>true</bold>
                        </font>
                       </property>
@@ -4928,7 +4939,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Alexander Pope</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -4955,10 +4966,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 70 - 72</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -5080,7 +5091,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson22</string>
                       </property>
                      </widget>
                     </item>
@@ -5098,7 +5109,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_18">
@@ -5133,7 +5144,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -5161,7 +5172,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 31</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -5188,7 +5199,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -5215,7 +5226,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 101 - 103</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -5340,7 +5351,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson31</string>
                       </property>
                      </widget>
                     </item>
@@ -5366,7 +5377,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -5394,7 +5405,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 32</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -5421,7 +5432,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -5448,7 +5459,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 104 - 106</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -5573,7 +5584,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson32</string>
                       </property>
                      </widget>
                     </item>
@@ -5588,6 +5599,12 @@ background-color: rgb(96, 195, 99);</string>
            </item>
            <item row="4" column="0">
             <widget class="QWidget" name="widget_47" native="true">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>280</height>
+              </size>
+             </property>
              <layout class="QHBoxLayout" name="horizontalLayout_11">
               <property name="spacing">
                <number>0</number>
@@ -5620,7 +5637,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -5648,7 +5665,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 17</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -5666,7 +5683,7 @@ border:none;</string>
                       <property name="font">
                        <font>
                         <family>Tahoma</family>
-                        <pointsize>12</pointsize>
+                        <pointsize>11</pointsize>
                         <bold>true</bold>
                        </font>
                       </property>
@@ -5675,10 +5692,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : French proverb</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -5702,10 +5719,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 53 - 55</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -5827,7 +5844,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson17</string>
                       </property>
                      </widget>
                     </item>
@@ -5853,7 +5870,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -5881,7 +5898,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 18</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -5908,10 +5925,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Confucius  </string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -5935,10 +5952,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 56 - 58</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -6060,7 +6077,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson18</string>
                       </property>
                      </widget>
                     </item>
@@ -6078,7 +6095,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_21">
@@ -6113,7 +6130,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -6141,7 +6158,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 37</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -6168,7 +6185,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -6195,7 +6212,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 121 - 123</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -6320,7 +6337,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson37</string>
                       </property>
                      </widget>
                     </item>
@@ -6346,7 +6363,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -6374,7 +6391,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 38</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -6401,7 +6418,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -6428,7 +6445,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 124 - 126</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -6553,7 +6570,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson38</string>
                       </property>
                      </widget>
                     </item>
@@ -6571,7 +6588,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_22">
@@ -6606,7 +6623,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -6634,7 +6651,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 39</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -6661,7 +6678,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -6688,7 +6705,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 127 - 129</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -6813,7 +6830,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson39</string>
                       </property>
                      </widget>
                     </item>
@@ -6839,7 +6856,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -6867,7 +6884,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 40</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -6894,7 +6911,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -6921,7 +6938,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 130 - 132</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -7046,7 +7063,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson40</string>
                       </property>
                      </widget>
                     </item>
@@ -7064,7 +7081,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_17">
@@ -7099,7 +7116,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -7127,7 +7144,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 29</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -7154,7 +7171,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -7181,7 +7198,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 93 - 95</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -7306,7 +7323,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson29</string>
                       </property>
                      </widget>
                     </item>
@@ -7332,7 +7349,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -7360,7 +7377,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 30</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -7387,7 +7404,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -7414,7 +7431,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 96 - 98</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -7539,7 +7556,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson30</string>
                       </property>
                      </widget>
                     </item>
@@ -7557,7 +7574,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_7">
@@ -7592,7 +7609,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -7620,7 +7637,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 5</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -7647,10 +7664,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : W.G. Benham</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -7674,10 +7691,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 12 - 15</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -7799,7 +7816,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson5</string>
                       </property>
                      </widget>
                     </item>
@@ -7825,7 +7842,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -7853,7 +7870,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 6</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -7880,10 +7897,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Piautus</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -7907,10 +7924,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 15 - 18</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -8032,7 +8049,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson6</string>
                       </property>
                      </widget>
                     </item>
@@ -8050,7 +8067,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_8">
@@ -8085,7 +8102,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -8113,7 +8130,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 7</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -8140,10 +8157,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shenstone</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -8167,10 +8184,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 21 - 23</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -8292,7 +8309,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson7</string>
                       </property>
                      </widget>
                     </item>
@@ -8318,7 +8335,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -8346,7 +8363,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 8</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -8373,10 +8390,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Aristophanes</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -8400,10 +8417,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 24 - 26</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -8525,7 +8542,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson8</string>
                       </property>
                      </widget>
                     </item>
@@ -8543,7 +8560,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_5">
@@ -8578,7 +8595,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -8606,7 +8623,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 9</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -8624,7 +8641,7 @@ border:none;</string>
                       <property name="font">
                        <font>
                         <family>Tahoma</family>
-                        <pointsize>12</pointsize>
+                        <pointsize>11</pointsize>
                         <bold>true</bold>
                        </font>
                       </property>
@@ -8633,10 +8650,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author :Benjamin Disraeli</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -8660,10 +8677,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 27 - 29</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -8785,7 +8802,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson9</string>
                       </property>
                      </widget>
                     </item>
@@ -8808,7 +8825,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -8851,7 +8868,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 10</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -8878,10 +8895,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Quintillian</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -8905,10 +8922,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 30 - 32</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -9030,7 +9047,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson10 </string>
                       </property>
                      </widget>
                     </item>
@@ -9048,7 +9065,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_20">
@@ -9083,7 +9100,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -9111,7 +9128,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 35</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -9138,7 +9155,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -9165,7 +9182,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 111 - 113</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -9290,7 +9307,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson35</string>
                       </property>
                      </widget>
                     </item>
@@ -9316,7 +9333,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -9344,7 +9361,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 36</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -9371,7 +9388,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -9398,7 +9415,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 116 - 118</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -9523,7 +9540,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson36</string>
                       </property>
                      </widget>
                     </item>
@@ -9541,7 +9558,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -9573,7 +9590,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -9631,7 +9648,7 @@ border:none;</string>
                        <string> Author : Henry Ward </string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -9655,10 +9672,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 1 - 3</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -9780,7 +9797,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson1</string>
                       </property>
                      </widget>
                     </item>
@@ -9806,7 +9823,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -9834,7 +9851,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 2</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -9861,10 +9878,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Lewis Carroll </string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignCenter</set>
                       </property>
                      </widget>
                     </item>
@@ -9888,10 +9905,10 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string>Pages : 4 - 6</string>
                       </property>
                       <property name="alignment">
-                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
                       </property>
                      </widget>
                     </item>
@@ -10013,7 +10030,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson2</string>
                       </property>
                      </widget>
                     </item>
@@ -10031,7 +10048,7 @@ background-color: rgb(96, 195, 99);</string>
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>350</height>
+               <height>280</height>
               </size>
              </property>
              <layout class="QHBoxLayout" name="horizontalLayout_23">
@@ -10066,7 +10083,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -10094,7 +10111,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 41</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -10121,7 +10138,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -10148,7 +10165,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 133 - 135</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -10273,7 +10290,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson41</string>
                       </property>
                      </widget>
                     </item>
@@ -10299,7 +10316,7 @@ background-color: rgb(96, 195, 99);</string>
                   <number>0</number>
                  </property>
                  <property name="rightMargin">
-                  <number>40</number>
+                  <number>0</number>
                  </property>
                  <property name="bottomMargin">
                   <number>20</number>
@@ -10327,7 +10344,7 @@ border:2px solid black;
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string>Lesson 1</string>
+                       <string>Lesson 42</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignCenter</set>
@@ -10354,7 +10371,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Author : Henry Ward </string>
+                       <string> Author : Shakespeare</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -10381,7 +10398,7 @@ border:none;</string>
 border:none;</string>
                       </property>
                       <property name="text">
-                       <string> Pages : 1 - 4</string>
+                       <string> Pages : 136 - 138</string>
                       </property>
                       <property name="alignment">
                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -10506,7 +10523,7 @@ color:black;
 background-color: rgb(96, 195, 99);</string>
                       </property>
                       <property name="text">
-                       <string>Review Lesson1 </string>
+                       <string>Review Lesson42</string>
                       </property>
                      </widget>
                     </item>
@@ -10521,6 +10538,12 @@ background-color: rgb(96, 195, 99);</string>
            </item>
            <item row="10" column="1">
             <widget class="QWidget" name="widget_108" native="true">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>280</height>
+              </size>
+             </property>
              <layout class="QHBoxLayout" name="horizontalLayout_24">
               <item>
                <widget class="QWidget" name="widget_111" native="true">
