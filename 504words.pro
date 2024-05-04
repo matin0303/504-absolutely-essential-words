@@ -10,13 +10,16 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    secpage.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    secpage.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    secpage.ui
 
 TRANSLATIONS += \
     504words_en_VI.ts
