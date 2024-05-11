@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>secPage</class>
- <widget class="QWidget" name="secPage">
+ <class>secondPage</class>
+ <widget class="QDialog" name="secondPage">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Dialog</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.995305, y2:0, stop:0 rgba(199, 255, 232, 255), stop:1 rgba(199, 255, 182, 255));</string>
@@ -35,7 +35,7 @@
    <item>
     <widget class="QStackedWidget" name="stackedWidget">
      <property name="currentIndex">
-      <number>0</number>
+      <number>1</number>
      </property>
      <widget class="QWidget" name="page">
       <layout class="QVBoxLayout" name="verticalLayout_10">
