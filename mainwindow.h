@@ -64,7 +64,6 @@ private slots:
     void on_btn41_clicked();
     void on_btn42_clicked();
 
-    void matin();
 private:
     Ui::MainWindow *ui;
     secondPage *SecPage;
