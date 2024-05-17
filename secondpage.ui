@@ -329,7 +329,7 @@ border-radius:7px;</string>
                      </property>
                      <layout class="QVBoxLayout" name="verticalLayout_17">
                       <item>
-                       <widget class="QLabel" name="label_4">
+                       <widget class="QLabel" name="qs_num_lb">
                         <property name="font">
                          <font>
                           <family>Tahoma</family>
@@ -418,14 +418,33 @@ border:none;</string>
              <item>
               <widget class="QWidget" name="widget_18" native="true">
                <property name="styleSheet">
-                <string notr="true">border:none;</string>
+                <string notr="true">QRadioButton {
+    background-color:  transparent;
+    color:   black;
+}
+
+QRadioButton::indicator {
+    width:                  10px;
+    height:                 10px;
+    border-radius:          7px;
+}
+
+QRadioButton::indicator:checked {
+    background-color:       green;
+    border:                 2px solid black;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:       transparent;
+    border:                 2px solid black;
+}</string>
                </property>
                <layout class="QGridLayout" name="gridLayout_3">
                 <item row="0" column="0">
                  <widget class="QWidget" name="widget_19" native="true">
                   <layout class="QVBoxLayout" name="verticalLayout">
                    <item>
-                    <widget class="QRadioButton" name="radioButton">
+                    <widget class="QRadioButton" name="radio1">
                      <property name="styleSheet">
                       <string notr="true">color: rgb(0, 0, 0);
 border:none;</string>
@@ -434,7 +453,7 @@ border:none;</string>
                       <string>RadioButton</string>
                      </property>
                      <property name="checkable">
-                      <bool>false</bool>
+                      <bool>true</bool>
                      </property>
                     </widget>
                    </item>
@@ -445,7 +464,7 @@ border:none;</string>
                  <widget class="QWidget" name="widget_21" native="true">
                   <layout class="QVBoxLayout" name="verticalLayout_14">
                    <item>
-                    <widget class="QRadioButton" name="radioButton_2">
+                    <widget class="QRadioButton" name="radio2">
                      <property name="layoutDirection">
                       <enum>Qt::RightToLeft</enum>
                      </property>
@@ -457,7 +476,7 @@ border:none;</string>
                       <string>RadioButton</string>
                      </property>
                      <property name="checkable">
-                      <bool>false</bool>
+                      <bool>true</bool>
                      </property>
                      <property name="checked">
                       <bool>false</bool>
@@ -474,7 +493,7 @@ border:none;</string>
                  <widget class="QWidget" name="widget_22" native="true">
                   <layout class="QVBoxLayout" name="verticalLayout_15">
                    <item>
-                    <widget class="QRadioButton" name="radioButton_3">
+                    <widget class="QRadioButton" name="radio3">
                      <property name="styleSheet">
                       <string notr="true">color: rgb(0, 0, 0);
 border:none;</string>
@@ -483,7 +502,7 @@ border:none;</string>
                       <string>RadioButton</string>
                      </property>
                      <property name="checkable">
-                      <bool>false</bool>
+                      <bool>true</bool>
                      </property>
                     </widget>
                    </item>
@@ -494,7 +513,7 @@ border:none;</string>
                  <widget class="QWidget" name="widget_20" native="true">
                   <layout class="QVBoxLayout" name="verticalLayout_16">
                    <item>
-                    <widget class="QRadioButton" name="radioButton_4">
+                    <widget class="QRadioButton" name="radio4">
                      <property name="layoutDirection">
                       <enum>Qt::RightToLeft</enum>
                      </property>
@@ -506,7 +525,7 @@ border:none;</string>
                       <string>RadioButton</string>
                      </property>
                      <property name="checkable">
-                      <bool>false</bool>
+                      <bool>true</bool>
                      </property>
                     </widget>
                    </item>

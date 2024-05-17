@@ -15,6 +15,8 @@ public:
     explicit secondPage(QWidget *parent = nullptr);
     ~secondPage();
     void setTitleText(const QString &str);
+    void setExamPageLabels(const QString &lesson);
+
 
 
 private slots:
