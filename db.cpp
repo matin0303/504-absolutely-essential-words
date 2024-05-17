@@ -234,7 +234,7 @@ vector<vector<vector<string>>> db::words504 =
                     "You need a powerful lens to make some germs visible"
                 },
                 {
-                    "expencive",
+                    "expensive",
                     "گران",
                     "Because diamonds are scarce* they are expensive",
                     "Margarine is much less expensive than butter",

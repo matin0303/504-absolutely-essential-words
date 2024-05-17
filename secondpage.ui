@@ -31,6 +31,9 @@
    </property>
    <item row="0" column="0">
     <widget class="QStackedWidget" name="stackedWidget">
+     <property name="midLineWidth">
+      <number>0</number>
+     </property>
      <property name="currentIndex">
       <number>0</number>
      </property>
@@ -242,7 +245,7 @@ border-radius:7px;</string>
            <widget class="QWidget" name="widget_15" native="true">
             <property name="minimumSize">
              <size>
-              <width>750</width>
+              <width>900</width>
               <height>400</height>
              </size>
             </property>
@@ -359,7 +362,7 @@ border:none;</string>
                      </property>
                      <layout class="QVBoxLayout" name="verticalLayout_18">
                       <item>
-                       <widget class="QLabel" name="label_5">
+                       <widget class="QLabel" name="score_lb">
                         <property name="font">
                          <font>
                           <family>Tahoma</family>
@@ -372,7 +375,7 @@ border:none;</string>
 border:none;</string>
                         </property>
                         <property name="text">
-                         <string>Scure : 20</string>
+                         <string>Score : 0</string>
                         </property>
                         <property name="alignment">
                          <set>Qt::AlignCenter</set>
@@ -388,6 +391,21 @@ border:none;</string>
                 <item>
                  <widget class="QWidget" name="widget_23" native="true">
                   <layout class="QVBoxLayout" name="verticalLayout_19">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
                    <item>
                     <widget class="QLabel" name="qs_label">
                      <property name="font">
@@ -445,6 +463,13 @@ QRadioButton::indicator:unchecked {
                   <layout class="QVBoxLayout" name="verticalLayout">
                    <item>
                     <widget class="QRadioButton" name="radio1">
+                     <property name="font">
+                      <font>
+                       <pointsize>11</pointsize>
+                       <italic>false</italic>
+                       <bold>true</bold>
+                      </font>
+                     </property>
                      <property name="styleSheet">
                       <string notr="true">color: rgb(0, 0, 0);
 border:none;</string>
@@ -465,6 +490,12 @@ border:none;</string>
                   <layout class="QVBoxLayout" name="verticalLayout_14">
                    <item>
                     <widget class="QRadioButton" name="radio2">
+                     <property name="font">
+                      <font>
+                       <pointsize>11</pointsize>
+                       <bold>true</bold>
+                      </font>
+                     </property>
                      <property name="layoutDirection">
                       <enum>Qt::RightToLeft</enum>
                      </property>
@@ -494,6 +525,12 @@ border:none;</string>
                   <layout class="QVBoxLayout" name="verticalLayout_15">
                    <item>
                     <widget class="QRadioButton" name="radio3">
+                     <property name="font">
+                      <font>
+                       <pointsize>11</pointsize>
+                       <bold>true</bold>
+                      </font>
+                     </property>
                      <property name="styleSheet">
                       <string notr="true">color: rgb(0, 0, 0);
 border:none;</string>
@@ -514,6 +551,12 @@ border:none;</string>
                   <layout class="QVBoxLayout" name="verticalLayout_16">
                    <item>
                     <widget class="QRadioButton" name="radio4">
+                     <property name="font">
+                      <font>
+                       <pointsize>11</pointsize>
+                       <bold>true</bold>
+                      </font>
+                     </property>
                      <property name="layoutDirection">
                       <enum>Qt::RightToLeft</enum>
                      </property>
