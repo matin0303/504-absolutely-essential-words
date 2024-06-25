@@ -138,7 +138,7 @@ border:none;</string>
           <property name="geometry">
            <rect>
             <x>0</x>
-            <y>0</y>
+            <y>-2587</y>
             <width>1198</width>
             <height>3200</height>
            </rect>
@@ -295,7 +295,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_5">
+                     <widget class="QCheckBox" name="checkBox5">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -349,7 +349,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_6">
+                     <widget class="QCheckBox" name="checkBox6">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -528,7 +528,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_7">
+                     <widget class="QCheckBox" name="checkBox7">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -582,7 +582,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_8">
+                     <widget class="QCheckBox" name="checkBox8">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -788,7 +788,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_31">
+                     <widget class="QCheckBox" name="checkBox29">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -842,7 +842,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_32">
+                     <widget class="QCheckBox" name="checkBox30">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -1021,7 +1021,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_29">
+                     <widget class="QCheckBox" name="checkBox31">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -1075,7 +1075,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_30">
+                     <widget class="QCheckBox" name="checkBox32">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -1281,7 +1281,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_27">
+                     <widget class="QCheckBox" name="checkBox25">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -1335,7 +1335,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_28">
+                     <widget class="QCheckBox" name="checkBox26">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -1514,7 +1514,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_25">
+                     <widget class="QCheckBox" name="checkBox27">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -1568,7 +1568,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_26">
+                     <widget class="QCheckBox" name="checkBox28">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -1774,7 +1774,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_67">
+                     <widget class="QCheckBox" name="checkBox65">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -1828,7 +1828,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_68">
+                     <widget class="QCheckBox" name="checkBox66">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -2007,7 +2007,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_65">
+                     <widget class="QCheckBox" name="checkBox67">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -2061,7 +2061,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_66">
+                     <widget class="QCheckBox" name="checkBox68">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -2273,7 +2273,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_37">
+                     <widget class="QCheckBox" name="checkBox37">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -2330,7 +2330,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_38">
+                     <widget class="QCheckBox" name="checkBox38">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -2509,7 +2509,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_39">
+                     <widget class="QCheckBox" name="checkBox39">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -2563,7 +2563,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_40">
+                     <widget class="QCheckBox" name="checkBox40">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -2769,7 +2769,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_13">
+                     <widget class="QCheckBox" name="checkBox21">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -2823,7 +2823,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_14">
+                     <widget class="QCheckBox" name="checkBox22">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -3002,7 +3002,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_15">
+                     <widget class="QCheckBox" name="checkBox23">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -3056,7 +3056,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_16">
+                     <widget class="QCheckBox" name="checkBox24">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -3262,7 +3262,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_51">
+                     <widget class="QCheckBox" name="checkBox49">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -3316,7 +3316,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_52">
+                     <widget class="QCheckBox" name="checkBox50">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -3495,7 +3495,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_49">
+                     <widget class="QCheckBox" name="checkBox51">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -3549,7 +3549,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_50">
+                     <widget class="QCheckBox" name="checkBox52">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -3755,7 +3755,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_55">
+                     <widget class="QCheckBox" name="checkBox53">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -3809,7 +3809,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_56">
+                     <widget class="QCheckBox" name="checkBox54">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -3988,7 +3988,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_53">
+                     <widget class="QCheckBox" name="checkBox55">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -4042,7 +4042,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_54">
+                     <widget class="QCheckBox" name="checkBox56">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -4248,7 +4248,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_47">
+                     <widget class="QCheckBox" name="checkBox45">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -4302,7 +4302,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_48">
+                     <widget class="QCheckBox" name="checkBox46">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -4481,7 +4481,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_45">
+                     <widget class="QCheckBox" name="checkBox47">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -4535,7 +4535,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_46">
+                     <widget class="QCheckBox" name="checkBox48">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -4741,7 +4741,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_43">
+                     <widget class="QCheckBox" name="checkBox41">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -4795,7 +4795,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_44">
+                     <widget class="QCheckBox" name="checkBox42">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -4974,7 +4974,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_41">
+                     <widget class="QCheckBox" name="checkBox43">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -5028,7 +5028,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_42">
+                     <widget class="QCheckBox" name="checkBox44">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -5234,7 +5234,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_63">
+                     <widget class="QCheckBox" name="checkBox61">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -5288,7 +5288,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_64">
+                     <widget class="QCheckBox" name="checkBox62">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -5467,7 +5467,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_61">
+                     <widget class="QCheckBox" name="checkBox63">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -5521,7 +5521,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_62">
+                     <widget class="QCheckBox" name="checkBox64">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -5727,7 +5727,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_35">
+                     <widget class="QCheckBox" name="checkBox33">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -5781,7 +5781,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_36">
+                     <widget class="QCheckBox" name="checkBox34">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -5960,7 +5960,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_33">
+                     <widget class="QCheckBox" name="checkBox35">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -6014,7 +6014,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_34">
+                     <widget class="QCheckBox" name="checkBox36">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -6220,7 +6220,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_75">
+                     <widget class="QCheckBox" name="checkBox73">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -6274,7 +6274,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_76">
+                     <widget class="QCheckBox" name="checkBox74">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -6453,7 +6453,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_73">
+                     <widget class="QCheckBox" name="checkBox75">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -6507,7 +6507,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_74">
+                     <widget class="QCheckBox" name="checkBox76">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -6713,7 +6713,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_79">
+                     <widget class="QCheckBox" name="checkBox77">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -6767,7 +6767,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_80">
+                     <widget class="QCheckBox" name="checkBox78">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -6946,7 +6946,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_77">
+                     <widget class="QCheckBox" name="checkBox79">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -7000,7 +7000,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_78">
+                     <widget class="QCheckBox" name="checkBox80">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -7206,7 +7206,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_57">
+                     <widget class="QCheckBox" name="checkBox57">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -7260,7 +7260,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_58">
+                     <widget class="QCheckBox" name="checkBox58">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -7439,7 +7439,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_59">
+                     <widget class="QCheckBox" name="checkBox59">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -7493,7 +7493,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_60">
+                     <widget class="QCheckBox" name="checkBox60">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -7932,7 +7932,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_17">
+                     <widget class="QCheckBox" name="checkBox11">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -7986,7 +7986,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_18">
+                     <widget class="QCheckBox" name="checkBox12">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -8192,7 +8192,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_23">
+                     <widget class="QCheckBox" name="checkBox13">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -8246,7 +8246,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_24">
+                     <widget class="QCheckBox" name="checkBox14">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -8425,7 +8425,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_21">
+                     <widget class="QCheckBox" name="checkBox15">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -8479,7 +8479,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_22">
+                     <widget class="QCheckBox" name="checkBox16">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -8685,7 +8685,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_9">
+                     <widget class="QCheckBox" name="checkBox17">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -8739,7 +8739,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_10">
+                     <widget class="QCheckBox" name="checkBox18">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -8930,7 +8930,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_11">
+                     <widget class="QCheckBox" name="checkBox19">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -8984,7 +8984,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_12">
+                     <widget class="QCheckBox" name="checkBox20">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -9190,7 +9190,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_71">
+                     <widget class="QCheckBox" name="checkBox69">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -9244,7 +9244,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_72">
+                     <widget class="QCheckBox" name="checkBox70">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -9423,7 +9423,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_69">
+                     <widget class="QCheckBox" name="checkBox71">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -9477,7 +9477,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_70">
+                     <widget class="QCheckBox" name="checkBox72">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -9680,7 +9680,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox">
+                     <widget class="QCheckBox" name="checkBox1">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -9734,7 +9734,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_2">
+                     <widget class="QCheckBox" name="checkBox2">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -9913,7 +9913,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_3">
+                     <widget class="QCheckBox" name="checkBox3">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -9967,7 +9967,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_4">
+                     <widget class="QCheckBox" name="checkBox4">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -10173,7 +10173,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_85">
+                     <widget class="QCheckBox" name="checkBox81">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -10227,7 +10227,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_86">
+                     <widget class="QCheckBox" name="checkBox82">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -10406,7 +10406,7 @@ border:none;</string>
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_81">
+                     <widget class="QCheckBox" name="checkBox83">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
@@ -10460,7 +10460,7 @@ QCheckBox{
                      </widget>
                     </item>
                     <item>
-                     <widget class="QCheckBox" name="checkBox_82">
+                     <widget class="QCheckBox" name="checkBox84">
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
